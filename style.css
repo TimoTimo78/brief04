@@ -145,6 +145,7 @@ section:nth-child(2) div a{
 section:nth-child(3){
     background: #e2d2d2;
     color: #000;
+    display: flex;
 }
 #carrousel{
     width: 400px;
@@ -155,10 +156,12 @@ section:nth-child(3){
     width: 1600px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .card,
 .card img{
-    width: 190px;
+    width:190px;
 }
 .cardContent{
     margin: 10px;
@@ -191,10 +194,11 @@ section:nth-child(3){
 }
 .cardPlaces{
     width: 265px;
-    margin-left: 10px;
+    /* margin-left: 30px; */
+    margin-left: 10%;
 }
 .cardContinent{
-    padding: 10px;
+    padding: 5px;
     background: #f1f1f1;
 }
 .continent{
@@ -223,4 +227,24 @@ footer{
 }
 footer p{
     margin: auto;
+}
+@media screen and (max-width: 600px){
+    section:nth-child(3){
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .cardPlaces {
+        width: 90%;
+        margin: 0;
+        padding: 0;    
+    }
+    .container  {
+        margin-bottom: 10px;
+
+    }
 }
