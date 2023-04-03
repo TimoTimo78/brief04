@@ -61,40 +61,4 @@ for (let i = 0; i < buttons.length; i++) {
       popup.remove();
     });
   });
-
-
-
-
-  // Je vais continuer à adpater ma popUp à la page Web
-  
-  // const popup = document.createElement('div');
-  //     popup.classList.add('popup');
-  
-  // const boutons = document.querySelectorAll('container button')
-  
-  // for (let index = 0; index < boutons.length; index++) {
-  //   const card = boutons[index];
-  //   console.log(jeu.getAttribute('id'));
-  //   popUp.addEventListener('click', ()=>{
-  //       popUp.classList.toggle('.card button');
-  //       });
-  // }
-  
-  // let popUp = document.querySelectorAll('.card button');
-  // popUp.forEach((element) => {
-  //     element.addEventListener("click",() => {
-  //       let div = document.createElement('div');
-  //       let img = document.createElement('img');
-  //       let h2 = document.createElement('h2');
-  //       let p = document.createElement('p');
-  //       let body = document.querySelector('body');
-  //       div.append(img);
-  //       div.append(h2);
-  //       div.append(p);
-  //       console.log(div);
-  //       document.body.appendChild(div);
-  //     })
-  //   });
-  
-    // Sélectionner tous les boutons "Get more info"
 }
