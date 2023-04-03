@@ -244,10 +244,12 @@ footer p{
         padding: 0;    
     }
     .container  {
-        margin-bottom: 10px;
-
+        margin-bottom: 10px;  
+    }
+    .popupContent {
+      
     }
 }
-div {
-    
-}
+/* .popupContent {
+    width: 620px;
+} */
